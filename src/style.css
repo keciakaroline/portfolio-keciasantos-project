@@ -1,14 +1,10 @@
 :root {
   --font-title-text: "Nunito", sans-serif;
-  --font-italic: "Pacifico", cursive;
+  --font-italic: "Courgette", cursive;
   --background-primary: #3f415a;
   --background-secondary: #6a6577;
   --color-primary-font: #e767b0;
   --color-secondary-font: rgb(247, 247, 247);
-}
-
-.font-italic {
-  font-family: var(--font-italic);
 }
 
 body {
@@ -29,15 +25,19 @@ h3 {
 }
 
 .heading {
-  padding: 160px 20px 150px 20px;
+  padding: 160px 20px;
   text-align: center;
   background-color: var(--background-primary);
   line-break: 2;
 }
 
 .btn-branding {
+  font-family: var(--font-italic);
   margin-top: 50px;
-  padding: 12px 15px 12px 15px;
+  padding: 12px 15px;
   background-color: var(--background-secondary);
   color: var(--color-secondary-font);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
 }
