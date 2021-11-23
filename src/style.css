@@ -33,36 +33,51 @@ p {
   text-align: justify;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   h1 {
-    font-size: 45px;
-    line-height: 2;
+    font-size: 44px;
+    line-height: 1.5;
   }
 
   h2,
   h3 {
-    font-size: 36px;
-    line-height: 2;
-  }
-
-  .container-fluid {
-    background-color: var(--background-body);
-    padding: 0px;
-    margin: 0px;
+    font-size: 24px;
+    line-height: 1.2;
   }
 
   .heading {
-    padding: 80px 20px;
+    padding: 80px 20px !important;
+  }
+
+  .container-fluid {
+    padding: 2px !important;
+  }
+
+  .headline {
+    font-size: 12px !important;
+    margin: 2px !important;
+    padding: 30px 3px !important;
   }
 
   .project-description {
-    font-size: 32px;
-    padding: 0;
+    margin: 0px !important;
     text-align: center;
   }
-  .footer {
+
+  .project-description h2 {
+    margin-bottom: 2px !important;
+    font-size: 24px !important;
+  }
+
+  .project-description p {
+    font-size: 16px !important;
+    margin-bottom: 2px !important;
+  }
+
+  .footer p {
     text-align: center;
-    font-size: 12px;
+    font-size: 10px !important;
+    margin: 0px !important;
   }
 }
 
