@@ -7,9 +7,7 @@
   --color-primary-font: #e767b0;
   --color-secondary-font: rgb(247, 247, 247);
 }
-.font-bold-700 {
-  font-weight: 700px;
-}
+
 body {
   font-family: var(--font-title-text);
 }
@@ -17,7 +15,7 @@ body {
 h1 {
   font-family: var(--font-title-text);
   font-weight: 800;
-  /* line-height: 1.5px; */
+  line-height: 1.5;
   font-size: 90px;
   color: var(--color-primary-font);
 }
@@ -49,17 +47,17 @@ p {
     padding: 0;
     margin-top: 5px;
     text-align: center;
-    /* line-height: 2px; */
-  }
-
-  .project-description h2 {
-    font-weight: 800;
+    line-height: 2px;
   }
 
   .heading {
     padding: 80px 20px;
-    /* line-height: 2px; */
+    line-height: 2px;
   }
+}
+
+.headline {
+  font-weight: 700;
 }
 
 .container {
@@ -70,11 +68,15 @@ p {
   padding: 160px 20px;
   text-align: center;
   background-color: var(--background-primary);
-  /* line-height: 1.5px; */
+  line-height: 1.5;
 }
 
 .project-description {
   color: var(--color-secondary-font);
+}
+
+.project-description h2 {
+  font-weight: 800;
 }
 
 .images-projects {
