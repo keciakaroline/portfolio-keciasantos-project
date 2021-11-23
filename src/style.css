@@ -2,11 +2,14 @@
   --font-title-text: "Nunito", sans-serif;
   --font-italic: "Courgette", cursive;
   --background-primary: #3f415a;
-  --background-secondary: #6a6577;
+  --background-body: #282a36;
+  --background-btn: #6a6577;
   --color-primary-font: #e767b0;
   --color-secondary-font: rgb(247, 247, 247);
 }
-
+.font-bold-700 {
+  font-weight: 700px;
+}
 body {
   font-family: var(--font-title-text);
 }
@@ -14,6 +17,7 @@ body {
 h1 {
   font-family: var(--font-title-text);
   font-weight: 800;
+  /* line-height: 1.5px; */
   font-size: 90px;
   color: var(--color-primary-font);
 }
@@ -24,20 +28,79 @@ h3 {
   color: var(--color-secondary-font);
 }
 
+p {
+  padding: 30px 0px;
+  font-size: 18px;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2,
+  h3 {
+    font-size: 44px;
+  }
+
+  .project-description {
+    padding: 0;
+    margin-top: 5px;
+    text-align: center;
+    /* line-height: 2px; */
+  }
+
+  .project-description h2 {
+    font-weight: 800;
+  }
+
+  .heading {
+    padding: 80px 20px;
+    /* line-height: 2px; */
+  }
+}
+
+.container {
+  background-color: var(--background-body);
+}
+
 .heading {
   padding: 160px 20px;
   text-align: center;
   background-color: var(--background-primary);
-  line-break: 2;
+  /* line-height: 1.5px; */
+}
+
+.project-description {
+  color: var(--color-secondary-font);
+}
+
+.images-projects {
 }
 
 .btn-branding {
   font-family: var(--font-italic);
   margin-top: 50px;
   padding: 12px 15px;
-  background-color: var(--background-secondary);
+  background-color: var(--background-btn);
   color: var(--color-secondary-font);
   border-radius: 4px;
   font-size: 18px;
-  line-height: 27px;
+}
+
+.btn-branding-outline {
+  font-family: var(--font-italic);
+  margin-top: 30px;
+  padding: 12px 15px;
+  /* background-color: var(--color-secondary-font); */
+  color: var(--color-primary-font);
+  border: 1px solid var(--color-primary-font);
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.btn:hover {
+  color: var(--color-secondary-font);
 }
