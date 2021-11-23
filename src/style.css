@@ -1,12 +1,43 @@
-h1 {
-  font-family: "Nunito", sans-serif;
-  font-weight: 800;
-}
-
-.font-text {
-  font-family: "Nunito", sans-serif;
+:root {
+  --font-title-text: "Nunito", sans-serif;
+  --font-italic: "Pacifico", cursive;
+  --background-primary: #3f415a;
+  --background-secondary: #6a6577;
+  --color-primary-font: #e767b0;
+  --color-secondary-font: rgb(247, 247, 247);
 }
 
 .font-italic {
-  font-family: "Pacifico", cursive;
+  font-family: var(--font-italic);
+}
+
+body {
+  font-family: var(--font-title-text);
+}
+
+h1 {
+  font-family: var(--font-title-text);
+  font-weight: 800;
+  font-size: 90px;
+  color: var(--color-primary-font);
+}
+
+h2,
+h3 {
+  font-size: 36px;
+  color: var(--color-secondary-font);
+}
+
+.heading {
+  padding: 160px 20px 150px 20px;
+  text-align: center;
+  background-color: var(--background-primary);
+  line-break: 2;
+}
+
+.btn-branding {
+  margin-top: 50px;
+  padding: 12px 15px 12px 15px;
+  background-color: var(--background-secondary);
+  color: var(--color-secondary-font);
 }
