@@ -60,7 +60,7 @@ p {
   font-weight: 700;
 }
 
-.container {
+.container-fluid {
   background-color: var(--background-body);
 }
 
