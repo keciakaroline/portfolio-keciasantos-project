@@ -33,59 +33,6 @@ p {
   text-align: justify;
 }
 
-@media (max-width: 900px) {
-  h1 {
-    font-size: 44px;
-    line-height: 56px;
-  }
-
-  h2,
-  h3 {
-    font-size: 24px;
-    line-height: 1.2;
-  }
-
-  .heading {
-    padding: 80px 20px !important;
-  }
-
-  .homepage {
-    padding: 2px !important;
-  }
-
-  .headline {
-    font-size: 12px !important;
-    margin: 2px !important;
-    padding: 30px 3px !important;
-  }
-
-  .project-description {
-    margin: 0px !important;
-    text-align: center;
-  }
-
-  .project-description h2 {
-    margin-bottom: 2px !important;
-    font-size: 24px !important;
-  }
-
-  .project-description p {
-    font-size: 16px !important;
-    margin-bottom: 2px !important;
-  }
-
-  .footer p {
-    text-align: center;
-    font-size: 10px !important;
-    margin: 0px !important;
-  }
-
-  .about-section {
-    text-align: center;
-    padding: 0;
-  }
-}
-
 .homepage {
   background-color: var(--background-body);
   padding-top: 50px;
@@ -156,7 +103,7 @@ p {
 .navbar a {
   color: var(--background-body);
 }
-
+.navbar-toggler,
 .navbar a:hover {
   color: var(--color-primary-font);
 }
@@ -187,4 +134,74 @@ p {
 .about-section p {
   font-size: 20px;
   color: var(--color-secondary-font);
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 56px;
+  }
+
+  h2,
+  h3 {
+    font-size: 24px;
+    line-height: 1.2;
+  }
+
+  .heading {
+    padding: 100px 20px 60px 20px;
+  }
+
+  .btn-branding {
+    margin-top: 25px;
+    padding: 10px 15px;
+  }
+
+  .homepage {
+    padding: 2px;
+  }
+
+  .headline {
+    font-size: 12px;
+    margin: 2px;
+    padding: 30px 3px;
+  }
+
+  .container-fluid .row {
+    margin: 5px 2px !important;
+  }
+
+  .project-description {
+    margin: 20px 10px 5px 10px;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .project-description h2 {
+    padding-top: 20px !important;
+    margin: 5px 2px !important;
+    font-size: 24px;
+  }
+
+  .project-description p {
+    margin: 5px 5px !important;
+    padding: 20px 5px !important;
+    font-size: 16px;
+  }
+  .btn-branding-outline {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+  }
+  .footer p {
+    text-align: center;
+    font-size: 10px;
+    margin: 0px;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
 }
