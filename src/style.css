@@ -122,10 +122,22 @@ p {
 .profile {
   border-radius: 20px;
 }
-
 .content {
   margin: 30px;
 }
+.content h1 {
+  font-size: 50px !important;
+}
+
+.content h3 {
+  font-weight: 700;
+}
+
+.content p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
 .content-container {
   padding: 160px 70px;
   background-color: var(--background-body);
@@ -227,8 +239,15 @@ p {
     margin: 0px;
   }
 
-  .content-container {
+  .content-container,
+  .content,
+  .section-footer {
     text-align: center;
-    padding: 0;
+    padding: 20px 0px 0px 0px;
+  }
+
+  .section-footer .btn-branding-outline {
+    margin-top: -10px;
+    margin-bottom: 30px;
   }
 }
