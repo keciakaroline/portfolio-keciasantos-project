@@ -113,6 +113,7 @@ p {
 
 .navbar a {
   color: var(--background-body);
+  transition: all 100ms ease-in-out;
 }
 .navbar-toggler,
 .navbar a:hover {
@@ -196,6 +197,7 @@ p {
 .contact-link a {
   color: var(--color-primary-font);
   text-decoration: none;
+  transition: all 100ms ease-in-out;
 }
 
 .contact-link a:hover {
