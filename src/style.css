@@ -65,15 +65,26 @@ p {
   font-size: 64px;
 }
 
-.footer p {
-  text-align: center;
+.footer .code-by p {
+  padding: 30px 0px 10px 0px;
   font-size: 14px;
+  color: var(--background-body);
+  text-align: center;
+}
+
+.footer .social-link {
+  text-align: center;
+  font-size: 25px;
+}
+
+.footer a {
+  color: var(--color-primary-font);
 }
 
 .btn-branding {
   font-family: var(--font-italic);
   margin-top: 50px;
-  padding: 12px 15px;
+  padding: 20px 25px;
   background-color: var(--background-btn);
   color: var(--color-secondary-font);
   border-radius: 4px;
@@ -84,7 +95,7 @@ p {
 .btn-branding-outline {
   font-family: var(--font-italic);
   margin-top: 30px;
-  padding: 12px 15px;
+  padding: 20px 25px;
   /* background-color: var(--color-secondary-font); */
   color: var(--color-primary-font);
   border: 1px solid var(--color-primary-font);
@@ -112,28 +123,44 @@ p {
   border-radius: 20px;
 }
 
-.about-section-content {
+.content {
   margin: 30px;
 }
-.about-section {
+.content-container {
   padding: 160px 70px;
   background-color: var(--background-body);
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-size: 32px;
   font-weight: 700;
   color: var(--color-secondary-font);
 }
 
-.about-section p {
+.content-container p {
   font-size: 20px;
   color: var(--color-secondary-font);
+}
+
+.section-footer {
+  background-color: var(--background-primary);
+  color: var(--color-secondary-font);
+  margin-top: 100px;
+  padding: 90px 90px 50px 90px;
+}
+
+.section-footer h2 {
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.linkedin-page {
+  font-size: 18px;
 }
 
 @media (max-width: 900px) {
@@ -200,7 +227,7 @@ p {
     margin: 0px;
   }
 
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0;
   }
