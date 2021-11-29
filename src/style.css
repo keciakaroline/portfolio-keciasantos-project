@@ -161,9 +161,14 @@ p {
   color: var(--color-secondary-font);
 }
 
-.content-container p {
+.content-container p,
+.form-label {
   font-size: 20px;
   color: var(--color-secondary-font);
+}
+
+.form {
+  padding: 0px 100px 0px 100px;
 }
 
 .section-footer {
@@ -180,6 +185,10 @@ p {
 
 .linkedin-page {
   font-size: 18px;
+}
+
+.contact-link a {
+  color: var(--color-primary-font);
 }
 
 @media (max-width: 900px) {
