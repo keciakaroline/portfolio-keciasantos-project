@@ -215,7 +215,8 @@ p {
     line-height: 1.2;
   }
 
-  .heading {
+  .heading,
+  .content-container {
     padding: 100px 20px 60px 20px;
   }
 
@@ -262,9 +263,9 @@ p {
     padding: 10px 15px;
   }
   .footer p {
-    text-align: center;
-    font-size: 10px;
-    margin: 0px;
+    text-align: center !important;
+    font-size: 10px !important;
+    margin: 0px !important;
   }
 
   .content-container,
@@ -293,5 +294,24 @@ p {
 
   .navbar a:hover {
     color: var(--color-primary-font);
+  }
+
+  .content .project,
+  .container-fluid .project {
+    border-radius: 10px;
+    width: 550px;
+    height: 400px;
+  }
+
+  .content-contact,
+  .content-container {
+    margin: 0px !important;
+    padding: 50px 0px 20px 0px !important;
+  }
+
+  .contact-link {
+    padding: 15px 5px 5px 5px;
+    width: 230px;
+    height: 100px;
   }
 }
